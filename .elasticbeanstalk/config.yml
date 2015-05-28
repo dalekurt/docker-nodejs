@@ -1,0 +1,10 @@
+branch-defaults:
+  master:
+    environment: dev-env
+global:
+  application_name: chartlytics
+  default_ec2_keyname: chartlytics-dalekurt
+  default_platform: Docker 1.6.0
+  default_region: null
+  profile: chartlytics
+  sc: git

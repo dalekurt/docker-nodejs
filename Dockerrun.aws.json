@@ -1,4 +1,13 @@
 {
-  "AWSEBDockerrunVersion": 2,
-  "image": "dalekurt/nodejs"
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "dalekurt/nodejs",
+    "Update": "true"
+  },
+  "Ports": [
+    {
+      "HostPort": "80",
+      "ContainerPort": "5000"
+    }
+  ]
 }
